@@ -8,16 +8,16 @@
 //-----------------------------------------------------------------------
 
 // GLM Mathematics
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
+#include "./glm/glm.hpp"
+#include "./glm/gtc/matrix_transform.hpp"
+#include "./glm/gtc/type_ptr.hpp"
 
 // GLEW
 #define GLEW_STATIC
-#include <GL/glew.h>
+#include "./GLEW/include/GL/glew.h"
 
 // GLFW
-#include <GLFW/glfw3.h>
+#include "./GLFW/include/GLFW/glfw3.h"
 
 // our class includes
 #include "./common/display.h"
